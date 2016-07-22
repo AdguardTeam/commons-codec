@@ -28,7 +28,7 @@ limitations under the License.
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <groupId>commons-codec</groupId>
-  <artifactId>commons-codec</artifactId>
+  <artifactId>commons-codec-compatible</artifactId>
   <!-- Remember to update the version in default.properties as well -->
   <version>1.10</version>
   <name>Apache Commons Codec</name>

@@ -82,7 +82,7 @@ limitations under the License.
             sourcepath="${source.home}"
             destdir="${dist.home}/docs/api"
             packagenames="org.apache.commons.*"
-            overview="${source.home}/org/apache/commons/codec/overview.html"
+            overview="src/main/java/org/apache/commons/codec/compatible/overview.html"
             author="true"
             private="true"
             version="true"

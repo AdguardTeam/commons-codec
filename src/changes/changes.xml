@@ -190,16 +190,18 @@ The <action> type attribute can be add,update,fix,remove.
         Add the "Kölner Phonetik" encoder (Cologne Phonetic) to codec.lang.
       </action>
       <action dev="ggregory" type="add" issue="CODEC-111" due-to="ggregory">
-        org.apache.commons.codec.net.URLCodec.ESCAPE_CHAR isn't final but should be.
+        org.apache.commons.codec.compatible.net.URLCodec.ESCAPE_CHAR isn't final but should be.
       </action>
       <action dev="sebb" type="add" issue="CODEC-112" due-to="sebb">
         Base64.encodeBase64(byte[] binaryData, boolean isChunked, boolean urlSafe, int maxResultSize) throws IAE for valid maxResultSize if isChunked is false.
       </action>
       <action dev="ggregory" type="add" issue="CODEC-113" due-to="ggregory">
-        org.apache.commons.codec.language.RefinedSoundex.US_ENGLISH_MAPPING should be package protected MALICIOUS_CODE.
+        org.apache.commons.codec.compatible.language.RefinedSoundex.US_ENGLISH_MAPPING should be package protected
+        MALICIOUS_CODE.
       </action>
       <action dev="ggregory" type="add" issue="CODEC-114" due-to="ggregory">
-        org.apache.commons.codec.language.Soundex.US_ENGLISH_MAPPING should be package protected MALICIOUS_CODE.
+        org.apache.commons.codec.compatible.language.Soundex.US_ENGLISH_MAPPING should be package protected
+        MALICIOUS_CODE.
       </action>
       <action dev="ggregory" type="add" issue="CODEC-115" due-to="sebb">
         DoubleMetaphone.maxCodeLen should probably be private.
